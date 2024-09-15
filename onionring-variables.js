@@ -7,7 +7,8 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://noahvocat.is-a.dev'
+'https://noahvocat.is-a.dev',
+'https://wikipedia.org',
 ];
 
 //the name of the ring
