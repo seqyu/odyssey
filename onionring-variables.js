@@ -9,6 +9,7 @@
 var sites = [
 'https://noahvocat.is-a.dev',
 'https://wikipedia.org',
+'https://microsoft.com',
 ];
 
 //the name of the ring
