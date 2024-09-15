@@ -56,17 +56,16 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
+  <div>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← Previous</a></td>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'>\< Previous</a></td>
       <td class='webring-info'><a>Your Odyssey starts today</a></br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
-        <a href='https://garlic.garden/onionring/'>what is this?</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>Next →</a></td>
+      <td class='webring-next'><a href='${sites[nextIndex]}'>Next \></a></td>
     </tr>
-  </table>
+  </div>
   `);
 
 }
