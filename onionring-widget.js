@@ -45,27 +45,27 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'>Home</a> | `;
+    indexText = `<a href='${indexPage}'>Home</a>`;
   }
 
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `;
+    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>Random</a>`;
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <div>
+  <table>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>\< Previous | </a></td>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'>\< Previous</a></td>
       <span class='webring-links'>
         ${randomText}
-        <td class='webring-info'><a>Your Odyssey starts today | </a>
+        <td class='webring-info'><a>Your Odyssey starts today</a>
         ${indexText}
       <td class='webring-next'><a href='${sites[nextIndex]}'>Next \></a></td>
     </tr>
-  </div>
+  </table>
   `);
 
 }
