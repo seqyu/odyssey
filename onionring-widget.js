@@ -59,7 +59,7 @@ else {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← Previous</a></td>
-      <td class='webring-info'><img href="https://github.com/nvct-website/nvct-website.github.io/blob/main/images/odyssey.png?raw=true"></br>
+      <td class='webring-info'><a>Your Odyssey starts today</a></br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
