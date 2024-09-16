@@ -10,6 +10,7 @@ var sites = [
 'https://noahvocat.is-a.dev',
 'https://scovings.github.io/',
 'https://cottonfetch.neocities.org/',
+'https://thatwaguy.neocities.org/',
 ];
 
 //the name of the ring
