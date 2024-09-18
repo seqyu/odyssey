@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list! Contact @avrgfrnchguy on Discord.</td>
+    <td>This site isn't part of the ${ringName} webring. You should talk to the manager to have your site added to the list! Contact @avrgfrnchguy on Discord.</td>
   </tr>
 </table>
   `);
@@ -58,8 +58,8 @@ else {
   tag.insertAdjacentHTML('afterbegin', `
   <div>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← Previous</a></td>
       <td class='webring-info'><a>Your Odyssey starts today</a></br>
+            <td class='webring-prev'><a href='${sites[previousIndex]}'>← Previous</a></td>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
