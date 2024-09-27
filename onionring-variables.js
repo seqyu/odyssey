@@ -11,6 +11,7 @@ var sites = [
 'https://scovings.github.io/',
 'https://cottonfetch.neocities.org/',
 'https://thatwaguy.neocities.org/',
+'https://manjiro5.neocities.org/'
 ];
 
 //the name of the ring
