@@ -10,8 +10,8 @@
   padding: 15px; /* creates some space around the widget */
 }
 
-#odyssey table {
-  background-color: #5900ff; /* makes the background pure white */
+#odyssey div {
+  background-color: #5900ff;
   margin: 0 auto; /* centers the widget */
 }
 
