@@ -45,7 +45,7 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'>Home</a> `;
+    indexText = `<a href='${indexPage}'><img src="https://noahvocat.is-a.dev/images/odyssey.png"></a> `;
   }
 
   randomText = ""
@@ -58,7 +58,6 @@ else {
   tag.insertAdjacentHTML('afterbegin', `
   <div>
       <tr>
-        <td class='webring-info'><a><img src="https://noahvocat.is-a.dev/images/odyssey.png"></a></br>
               <td class='webring-prev'><a href='${sites[previousIndex]}'>\<= Previous</a></td>
         <span class='webring-links'>
           ${randomText}
