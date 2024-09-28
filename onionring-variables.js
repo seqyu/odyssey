@@ -9,7 +9,7 @@
 var sites = [
 'https://noahvocat.is-a.dev',
 'https://scovings.github.io/',
-'https://cottonfetch.neocities.org/',
+'https://plasmacotton.github.io/',
 'https://thatwaguy.neocities.org/',
 'https://manjiro5.neocities.org/',
 'https://tabbyslimeking.xyz'
