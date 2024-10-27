@@ -8,7 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://frenchguy.is-a.dev',
-'https://scovings.github.io/',
 'https://plasmacotton.github.io/',
 'https://thatwaguy.neocities.org/',
 'https://manjiro5.neocities.org/',
