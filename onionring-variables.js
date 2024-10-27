@@ -7,7 +7,7 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://noahvocat.is-a.dev',
+'https://frenchguy.is-a.dev',
 'https://scovings.github.io/',
 'https://plasmacotton.github.io/',
 'https://thatwaguy.neocities.org/',
@@ -26,7 +26,7 @@ var ringID = 'odyssey';
 //should the widget include a link to an index page?
 var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://noahvocat.is-a.dev/odyssey.html';
+var indexPage = 'https://frenchguy.is-a.dev/odyssey.html';
 
 //should the widget include a random button?
 var useRandom = true;
