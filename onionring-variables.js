@@ -10,7 +10,8 @@ var sites = [
 'https://frenchguy.is-a.dev',
 'https://thatwaguy.neocities.org/',
 'https://manjiro5.neocities.org/',
-'https://tabbyslimeking.xyz'
+'https://tabbyslimeking.xyz',
+'https://brisray.com'
 ];
 
 //the name of the ring
