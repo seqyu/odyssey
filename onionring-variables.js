@@ -10,7 +10,6 @@ var sites = [
 'https://seqyu.is-a.dev',
 'https://thatwaguy.neocities.org/',
 'https://manjiro5.neocities.org/',
-'https://tabbyslimeking.xyz',
 'https://brisray.com'
 ];
 
